@@ -1,0 +1,13 @@
+\section{Alcances y Limites}
+Para este proyecto, los programas elaborados y el equipo utilizado para la detección de objetos en vehículos autónomos serán explícitamente para la conducción autónoma. Se planea que con el uso de la tecnología TinyML con redes neuronales artificiales se logren obtener resultados precisos, cumpliendo así con el objetivo del proyecto previamente antes mencionado. Además, se busca llevar a cabo el desarrollo de un coche con capacidades autónomas, es decir, que el coche tenga la funcionalidad de detectar objetos estáticos que lleguen a interrumpir la trayectoria en línea recta del carril diseñado. Por último, se pretende realizar distintos análisis de las pruebas realizadas durante el proyecto, en la cuál, se busque una mejoría de la precisión del modelo entrenando, notando que el resultado sea óptimo. No obstante, no se implementará una interfaz en la cual el usuario pueda interactuar con la ESP-WROOM-32, debido a que realizar dicho proceso consumirá más recursos necesarios, produciendo una saturación innecesaria afectando el rendimiento.
+
+Algunas de las limitaciones con las que el desarrollo del proyecto tendrá son principalmente en las capacidades de la ESP-WROOM-32. De las cuales, algunas de las características más importantes y destacables con las que se cuenta, son:
+\begin{itemize}
+    \item \textbf{Almacenamiento interno}: 4MB.
+    \item \textbf{Memoría volátil}: 520KB de SRAM.
+    \item \textbf{Alimentación}: 3.3V (aunque la placa de desarrollo puede aceptar 5V a través de USB).
+    \item \textbf{Temperatura de Operación}: Menores a 85°C. El rendimiento puede verse afectado cuando alcanza condiciones extremas de calor.
+\end{itemize}
+Estas limitaciones llegarán a limitar el rendimiento obtenido de parte del uso de la tecnología TinyML. A pesar de que EloquentArduino permite facilitar la implementación de los modelos de aprendizaje automático, estos suelen requerir de una optimización significativa para ajustarse a este espacio, lo que limita el tamaño y la complejidad del modelo que se llegue a diseñar, restándole precisión en la que el modelo ha sido entrenada.
+
+Además, otra de las limitaciones que se tendrá es el tiempo. Es decir, el proyecto únicamente contará con un tiempo de desarrollo aproximado de 9 semanas. Esta limitación supone una restricción debido a que la colecta de imágenes que servirán para el conjunto de datos (dataset) para entrenar al modelo puede llegar a ser largo y requerir de una gran cantidad de recursos. 

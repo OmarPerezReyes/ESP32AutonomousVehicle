@@ -1,0 +1,24 @@
+\section{Introducción}
+La conducción  autónoma ha sido uno de los mayores retos y con creciente interés en los últimos años, sobretodo cuando esta implica transformar la forma en que nos desplazamos. En el año 1939, se realizó el primer coche eléctrico capaz de ser controlado por circuitos integrados, un avance para que años más tarde, en 1994 ocurriera un hito en la historia automotriz. Dos coches condujeron de manera autónoma por más de dos mil kilómetros en una autopista de París, donde la intervención humana no estaba exenta, pero era muy reducida.
+
+Hoy en día, existen prototipos, investigaciones y Sistemas Avanzados de Asistencia a la Conducción o \textit{Advanced Driver Assistance System} (ADAS), que incluso ya están en el mercado, pero aún están lejos de liderarlo, pues para ello primero se debe lograr una normalización sobre los vehículos.
+
+Esto se ha convertido en una carrera tecnológica para los fabricantes y las grandes marcas, aún así, el problema que buscan resolver a través de la conducción autónoma, sigue teniendo el mismo enfoque, reducir los accidentes causados por los errores humanos, mejorar el trafico, facilitar la movilidad de aquellas personas con discapacidad o limitaciones físicas y que con ello sea un transporte más ecológico, seguro y eficiente. 
+
+En las grandes urbes es cada vez más común ver modelos de vehículos que, en mayor o menor medida, empiezan a ser autónomos: realizan la maniobra de estacionamiento por si solos, circulan sobre avenidas altamente transitadas o en otros casos reaccionan ante una posible situación de choque o atropello, por otro lado, aún falta tiempo para que se comercialice un vehículo totalmente autónomo, que pueda navegar sin intervención humana y ante cualquier situación.
+
+No obstante, pesar de las grandes compañías e investigaciones que abordan este campo, aún existen diversas limitaciones tecnológicas y legales que impiden la adopción de los coches autónomos en su totalidad. Uno de los principales problemas es la infraestructura urbana. Las ciudades, están aún lejos de tener el entorno adecuado para soportar su normalización, pues su aplicación no es trivial.
+
+El ambiente por donde el vehículo circula, es muy diverso, incluye variaciones climatológicas (días soleados, nublados, lluvia, nieve, etc.), cambios en el terreno (pavimento, asfalto, tierra, piedras, etc.), obstáculos en el camino, señalamientos de tránsito, rutas aún no existentes en mapas digitales; lo que vuelve este problema sumamente complejo para la percepción de su entorno.
+
+Desde el punto de vista tecnológico, la inteligencia artificial (IA) ha transformado múltiples sectores, y se ha exponenciado como una solución ante los problemas actuales, sin embargo, a pesar de sus avances, la IA enfrenta limitaciones cuando se trata de reaccionar antes situaciones impredecibles y de procesar información desconocida. Este desafío se vuelve particularmente crítico en contextos donde el tiempo de reacción se traduce en decisiones con altas consecuencias. Si bien existen sensores que nos permiten obtener información en tiempo real, la latencia, se vuelve un obstáculo para su efectividad.
+
+Además, el tiempo que tarda un dato en viajar hacia su destino para ser procesado, y la posterior respuesta que permite al sistema actuar, son factores críticos en los que cada segundo cuenta. Esto requiere que tanto la recopilación, el procesamiento y la toma de decisiones se encuentre optimizada al origen de los datos, es decir, la computación de borde o \textit{edge computing}.
+
+El \textit{edge computing}, es un enfoque clave para resolver este problema, ya que permite procesar los datos lo más cerca posible de donde se generan, en este caso, dentro del propio vehículo. Al procesar la información localmente, reduce la latencia y mejora la capacidad de respuesta del sistema. 
+
+Es por ello que los sistemas embebidos juegan un papel crucial, ya que estos dispositivos compactos y de bajo consumo pueden realizar tareas de procesamiento local, como el reconocimiento de imágenes, necesario para que un vehículo autónomo navegue.
+
+Sin embargo, surge una pregunta elemental: ¿pueden los sistemas embebidos cumplir con estas demandas de procesamiento de datos y toma de decisiones? Estos dispositivos, aunque eficientes en consumo energético y de tamaño compacto, presentan limitaciones de capacidad de cómputo en comparación con soluciones centralizadas o en la nube.
+
+En este contexto, este proyecto plantea el diseño y desarrollo de un coche autónomo a escala, utilizando una placa ESP32 como plataforma de procesamiento. La hipótesis central de este trabajo es que, a pesar de las limitaciones inherentes a los sistemas embebidos, la ESP32 posee la capacidad suficiente para ejecutar tareas de reconocimiento de imágenes y control en tiempo real, necesarias para la conducción.

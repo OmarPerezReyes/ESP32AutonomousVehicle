@@ -1,0 +1,15 @@
+\section{Descripción del problema}
+
+La conducción autónoma, como su nombre lo indica, es toda conducción de vehículos que se realice sin conductor. A día de hoy existen ejemplos de autos autónomos, tal como es el caso de los vehículos Tesla que usan el sistema Autopilot, y que sin embargo, su conducción requiere de asistencia y supervisión de un conductor hasta cierto punto. Esto último denota que  se requiere obligatoriamente de un ser humano, al menos por el momento, para realizar determinadas situaciones que requieran del control parcial o total del usuario.
+
+Sin embargo, hay que tener en cuenta que este concepto de 'Conducción autónoma' es muy poco descriptivo por sí mismo, dado que existen ciertos niveles de conducción autónomas.
+Como se intuye por lo anterior, para lograr una conducción autónoma, ya sea en cualquiera de sus niveles propuestos, se requiere de hardware y software sofisticados. En este caso, para el proyecto propuesto, el cual es un coche autónomo con ayuda de Machine Learning (TinyML), el hardware con el que se cuenta es limitado, pues se hará uso de microcontroladores, específicamente de una placa ESP32, la cual en cualquiera de sus modelos, su capacidad de procesamiento es bastante limitada, pero que por sí sola cuenta con características que la vuelven bastante útil, como la integración de Wi-Fi u otras características.
+
+Para lograr este reto, la manera más simple es usar librerías de Machine Learning específicamente diseñadas para este tipo de microcontroladores, como es el caso de Arduino Eloquent. Específicamente, para realizar la conducción autónoma, se harán uso de cámaras y de visión por computadora, en donde el vehículo debe de seguir una ruta marcada y deteniéndose ante obstáculos. Para ello, la idea es tener una cámara que permitirá acceder al espectro visual, a partir de eso, el propio microcontrolador deberá tomar una decisión. Este análisis se realizará por medio de algoritmos de visión por computadora, como la detección de bordes, reconocimiento de patrones y/o segmentación de objetos (detección).
+
+Adicionalmente, se deben considerar condiciones operativas variadas. Por ejemplo, las cámaras deben estar despejadas para garantizar una visibilidad óptima; en caso contrario, el vehículo debe ser capaz de detenerse automáticamente y alertar al usuario sobre la situación
+
+Así, el desafío no solo radica en implementar la tecnología adecuada, sino también en garantizar que el prototipo pueda funcionar de manera confiable y segura en condiciones del mundo real. 
+
+
+

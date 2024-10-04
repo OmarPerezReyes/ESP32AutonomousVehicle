@@ -1,0 +1,113 @@
+\section{Antecedentes Teóricos}
+La evolución de la conducción autónoma, se trata de uno de los mayores avances tecnológicos de este siglo, en el que el vehículo se desplaza por sí solo sin necesidad de esfuerzo humano para conducirlo (bajo ciertas limitaciones) o incluso mantenerlo bajo control. Esto también implica sistemas de transporte autónomos y robots. Por tanto, implica que estos vehículos estén dotados de sensores, actuadores y sistemas de control a través de los cuales se vuelven capaces de moverse de forma autónoma.
+
+Los cinco niveles de conducción autónoma, que van desde el control manual total (Nivel 0) hasta la autonomía completa (Nivel 5), marcan la evolución de esta tecnología. Actualmente, los fabricantes están avanzando en la comercialización de vehículos de Nivel 3, como los de Mercedes, que operan de manera autónoma bajo ciertas condiciones en autopistas, mientras que Tesla sigue perfeccionando su sistema Full Self-Driving con un enfoque más agresivo hacia el Nivel 4 \cite{mlearning2021}.
+
+Las tecnologías comunes en los sistemas de conducción autónoma incluyen equipos de control al que se conectan diversos sensores, radares, cámaras, etc., que observan regularmente el entorno desde adentro hacia afuera en busca de todos los objetos, vehículos, personas, entre otros elementos en su campo de visión. Con la aparición de tecnologías como TinyML, que implementa modelos de aprendizaje automático en dispositivos de baja potencia, la oportunidad de diseñar prototipos mejorados y más accesibles ha proporcionado una nueva serie de oportunidades para la investigación y el desarrollo.
+
+El aumento de la demanda de integrar dispositivos de señales de entrada de bajo consumo y la creación de modelos de ML eficientes en energía y memoria han facilitado el desarrollo de TinyML. TinyML tiene como objetivo la implementación del aprendizaje automático y las prácticas en dispositivos de señal, así como en la vanguardia de los marcos de IoT. Esto permite el procesamiento de señales y la inteligencia en dispositivos IoT, evitando la necesidad de cargar datos en servicios externos para su procesamiento. Al implementar de manera efectiva TinyML en dispositivos de Internet de las cosas, se pueden lograr niveles más altos de privacidad y eficacia, al mismo tiempo que se reducen los costos. Además, en situaciones donde la conectividad no es necesaria, el principal atractivo de TinyML radica en su enfoque en el análisis.
+
+
+Los últimos avances en vehículos autónomos se han centrado en la optimización de la toma de decisiones utilizando enfoques como el aprendizaje reforzado basado en procesos de decisión de Markov. Este marco matemático permite que los vehículos elijan acciones óptimas y ajusten sus trayectorias en tiempo real a través de recompensas por sus decisiones. Fabricantes como Tesla, Waymo y Nvidia están implementando estrategias que combinan sensores como LiDAR, cámaras y radar para mejorar la percepción del entorno. Además, el desarrollo de algoritmos de aprendizaje profundo extremo a extremo ha permitido la interpretación directa de imágenes de cámaras en comandos de conducción, aunque la complejidad del entorno sigue siendo un reto para la predicción de situaciones imprevistas. Este avance se considera un paso hacia la inteligencia artificial general, donde los vehículos podrían deducir nuevos contextos de conducción, una capacidad que es aún limitada pero clave para la evolución futura de estos sistemas hacia una verdadera inteligencia artificial general \cite{mlearninglabAvances}.
+
+\textbf{Detección de Objetos en Vehículos Autónomos} 
+\\
+TinyML puede tener aplicaciones generalizadas en la industria de vehículos autónomos, ya que estos vehículos se pueden utilizar de diferentes maneras, incluido el seguimiento humano, fines militares y aplicaciones industriales. Estos vehículos tienen el requisito principal de poder identificar objetos de manera eficiente cuando se busca el objeto. 
+A partir de ahora, los vehículos autónomos y la conducción autónoma son una tarea bastante compleja, especialmente cuando se desarrollan vehículos mini o de tamaño pequeño. Los desarrollos recientes han demostrado potencial para mejorar la aplicación de la conducción autónoma para mini vehículos mediante el uso de una arquitectura CNN y la implementación del modelo sobre el MCI GAP8. 
+En los últimos cinco años se ha estado trabajando más para la evolución y mejora de los vehículos con conducción autónoma, entre ellos el uso de la inteligencia artificial para la toma de decisiones en tiempo real, gran parte de estos avances se centran en la detección y reconocimiento de obstaculos, peatones, vehículos, entre otros, para garantizar la funcionalidad de los vahiculos autónomo.
+Uno de los campos claves en esta evolución ha sido el desarrollo de algoritmos avanzados de visión por computadora, y redes neuronales como YOLO.  
+A lo largo del tiempo, se han desarrollado una gran variedad de automóviles autónomos utilizando Arduino, los cuales de manera general abarcan desde el diseño físico, la implementación electrónica y la programación de software. Algunos trabajos preexistentes han explorado la detección de carriles y señales de tráfico mediante algoritmos de procesamiento de imágenes en tiempo real, utilizando cámaras y sensores acoplados al vehículo. Estos enfoques han permitido que los vehículos autónomos puedan identificar la delimitación de las vías de manera precisa, incluso en condiciones de baja visibilidad o en carreteras mal señalizadas.
+
+
+\subsection{Marco Teórico}
+
+\textbf{Vision Por Computadora}
+
+La visión por computadora es un campo de la inteligencia artificial que permite a los vehículos autónomos 'ver' el entorno. Los algoritmos de detección de objetos, como YOLO (You Only Look Once) y Faster R-CNN, han sido esenciales para que los vehículos puedan identificar y clasificar objetos, como otros autos, peatones y señales de tráfico, de manera rápida y precisa. Esta metodología utiliza redes neuronales convolucionales para analizar imágenes capturadas por cámaras en tiempo real \cite{Vision}.
+
+\textbf{Teoría de la conducción autónoma}
+
+Es la base para regular el comportamiento de sistemas autónomos como los vehículos con conducción autónoma. Esta teoría incluye el uso de sistemas de control en bucle cerrado (feedback control), donde el vehículo responde a su entorno en tiempo real mediante sensores y algoritmos. Los sistemas de control PID (Proporcional-Integral-Derivativo) son ampliamente utilizados para mantener estabilidad y precisión en la conducción autónoma \cite{teoria}.
+
+\textbf{Machine Learning}
+
+El machine learning ha permitido grandes avances en la capacidad de los vehículos autónomos para aprender de datos y mejorar su rendimiento en la conducción. A través de redes neuronales profundas, los vehículos pueden analizar vastas cantidades de datos sensoriales y tomar decisiones inteligentes \cite{ML}.
+
+\textbf{Redes Neuronales Artificiales}
+
+Las Redes Neuronales Artificiales han sido aplicadas para resolver problemas de clasificación y predicción en vehículos autónomos. Estas redes imitan el funcionamiento del cerebro humano y permiten que el vehículo aprenda de experiencias anteriores \cite{RN}.
+
+
+\textbf{Algoritmos de navegación} 
+
+Para el control de la navegación de un robot móvil existen infinidad de alternativas. El SLAM (Simultaneous Localization and Mapping) es un algoritmo clave para la navegación autónoma, ya que permite que los vehículos construyan un mapa de su entorno mientras se localizan dentro de él. Este algoritmo se basa en una combinación de sensores y modelos matemáticos para proporcionar información precisa sobre la posición del vehículo, lo que es esencial para la planificación de rutas y la toma de decisiones en tiempo real \cite{An}.
+
+\subsection{Estado del arte} 
+
+\textbf{Introducción}
+
+El avance de la tecnología de vehículos autónomos ha sido notable en los últimos años, impulsado por el desarrollo de sistemas de aprendizaje automático y la integración de técnicas de computación de borde, como TinyML. Este estado del arte examina las tendencias, métodos y aplicaciones más relevantes en el ámbito de la conducción autónoma, incluyendo el uso de aprendizaje profundo, prototipos, sensores, visión artificial, desafíos regulatorios, y algoritmos avanzados. A continuación, se presentan investigaciones y enfoques recientes que contribuyen a estos avances, basados en estudios y artículos actuales.
+
+\textbf{Aprendizaje Profundo en la Conducción Autónoma}
+
+En su artículo “El impacto del aprendizaje profundo en el desarrollo de vehículos autónomos”, Gary Silberg destaca cómo el aprendizaje profundo permite que los vehículos tomen decisiones sin que los ingenieros tengan que programar cada posible escenario. La recopilación y análisis de datos son fundamentales para que los vehículos se adapten a situaciones impredecibles. Se discuten dos enfoques principales:
+\begin{itemize}
+    \item \textbf{Abstracción semántica:} Utilizado en situaciones donde la comprensión del contexto es crucial. El modelo empleado son redes neuronales convolucionales (CNN), logrando una precisión del 92\% en la detección de obstáculos.
+
+    \item \textbf{Aprendizaje de punta a punta:} Este enfoque simplifica el proceso al utilizar grandes volúmenes de datos, aunque enfrenta retos en situaciones no vistas previamente. También se basa en CNN, pero requiere mayor capacidad de datos \cite{silberg2024}.
+
+\end{itemize}
+
+\textbf{ Desarrollo de Prototipos de Vehículos Autónomos}
+Un proyecto de fin de máster en la Universidad de Valladolid describe el desarrollo de un vehículo autónomo a escala que emplea algoritmos básicos en la plataforma Arduino. El prototipo incluye funciones como el seguimiento de líneas y la evitación de obstáculos, lo que lo convierte en una herramienta valiosa para la evaluación temprana de tecnologías autónomas. Se utiliza un algoritmo de seguimiento de líneas basado en visión artificial, destacando su simplicidad y utilidad en entornos controlados \cite{valla2023}.
+
+\textbf{TinyML y su Aplicación en Dispositivos Autónomos}
+
+Un artículo de Unite.ai examina la creciente relevancia de TinyML, una tecnología que permite ejecutar modelos de aprendizaje automático en dispositivos de bajo consumo energético. Su aplicación en vehículos autónomos permite realizar procesamiento local sin depender de la nube, mejorando la eficiencia y privacidad. Un ejemplo es el uso de TinyML para el procesamiento de imágenes en drones autónomos, logrando evitar obstáculos en tiempo real. El modelo utilizado es TinyML basado en redes neuronales convolucionales (CNN), optimizado para dispositivos de bajo consumo \cite{unite2023}.
+
+\textbf{Sensores y Tecnología en la Navegación Autónoma}
+
+Los avances en sensores como cámaras, LIDAR y radares son fundamentales para la percepción del entorno en vehículos autónomos. Estos sensores trabajan en conjunto para ofrecer una visión completa del entorno y mejorar la interacción segura con el mismo, incluso en escenarios complicados como tráfico urbano o áreas rurales. El sistema de fusión de sensores utilizado, combinado con algoritmos avanzados de percepción, ha alcanzado una precisión del 95\% en la detección de peatones y vehículos, lo que resalta la capacidad de estos sistemas para mejorar la seguridad en situaciones complejas \cite{programarfacil2023}.
+
+\textbf{Sistemas de Visión Artificial en UAVs}
+
+El desarrollo de un sistema de visión artificial para cuadricópteros, que utiliza técnicas de aprendizaje profundo para detectar y rastrear objetos en movimiento, demuestra la versatilidad de los vehículos autónomos en entornos aéreos. Este proyecto utiliza simulaciones con ROS y técnicas basadas en el modelo SSD (Single Shot Multibox Detector) para mejorar la precisión del rastreo, alcanzando una precisión del 90\% en la detección y seguimiento de objetos. Esto resalta la importancia de las simulaciones en el desarrollo de sistemas autónomos, ya que permiten probar y ajustar algoritmos en situaciones controladas antes de implementarlos en vehículos reales \cite{escolar2022}.
+
+\textbf{Retos y Futuro de los Vehículos Autónomos}
+
+A pesar de los avances, el camino hacia la autonomía total está plagado de desafíos, incluidos los problemas relacionados con la regulación, la seguridad y la aceptación pública. Se anticipa que para 2025, se lanzarán modelos con niveles avanzados de autonomía, pero será esencial preparar a los conductores y a las infraestructuras para este cambio. Además, la adopción de estos vehículos enfrenta desafíos en términos de aceptación pública, aspectos éticos sobre la toma de decisiones automáticas en situaciones críticas, y las regulaciones que varían significativamente entre países \cite{atrain2023}.
+
+\textbf{Algoritmos y Desafíos en la Conducción Autónoma}
+
+El desarrollo de algoritmos como matrices de decisión, reconocimiento de patrones y aprendizaje reforzado ha sido clave para el progreso de los vehículos autónomos. Estos algoritmos permiten que los vehículos identifiquen su ubicación, determinen su destino y tomen decisiones críticas como frenar o girar. Por ejemplo, Tesla utiliza matrices de decisión en su sistema de autopilotaje, mientras que Waymo emplea una combinación de reconocimiento de patrones y aprendizaje reforzado para adaptarse a las cambiantes condiciones del tráfico urbano. Estos sistemas han logrado una precisión del 93\% en condiciones de tráfico urbano, lo que subraya la eficiencia de los algoritmos en la conducción autónoma \cite{digiltea2024}.
+
+\textbf{Avances en Aprendizaje Profundo para la Conducción Autónoma}
+
+En el artículo titulado "Deep Learning for Autonomous Vehicles: State-of-the-Art and Future Trends" (2021), se realiza un análisis exhaustivo sobre las técnicas de aprendizaje profundo aplicadas a vehículos autónomos. Los autores examinan arquitecturas como las Redes Neuronales Convolucionales (CNN), las Redes Neuronales Recurrentes (RNN) y las Redes Neuronales de Memoria a Largo Plazo (LSTM), que desempeñan un papel crucial en los sistemas de percepción y toma de decisiones de los vehículos. Además, destacan cómo estas arquitecturas permiten una detección de objetos con una precisión del 95\% y una tasa de falsos positivos del 5\%. También se menciona un tiempo de respuesta del sistema de 200 ms, lo que refleja la eficiencia de estas técnicas en entornos dinámicos \cite{silberg2021deep}.
+
+\textbf{Avances en Técnicas de Aprendizaje Profundo en la Conducción Autónoma}
+
+En el artículo "A Comprehensive Review on Autonomous Navigation, se ofrece una visión integral de las técnicas de aprendizaje profundo aplicadas a la conducción autónoma, cubriendo aspectos desde la percepción hasta la planificación y el control de los vehículos. Los autores subrayan los avances en el uso de Redes Neuronales Convolucionales (CNN) para el reconocimiento de imágenes y la segmentación, así como el Aprendizaje por Refuerzo Profundo (DRL) para la toma de decisiones en entornos complejos. También se exploran aplicaciones de Redes Generativas Antagónicas (GAN) para generar datos sintéticos que entrenen estos sistemas autónomos. En cuanto a las métricas de rendimiento, se reporta una precisión del 93\% en la segmentación de imágenes, una tasa de éxito del 90\% en la navegación autónoma y un tiempo de procesamiento por imagen de 150 ms \cite{nahavandi2022comprehensive}.
+
+\textbf{Comparativa de Modelos de Aprendizaje Profundo en Vehículos Autónomos}
+
+A continuación, se presenta una tabla comparativa que resume los artículos analizados en el contexto de la tecnología de vehículos autónomos. La tabla incluye el título de cada artículo, el modelo de aprendizaje profundo utilizado y la precisión lograda en las respectivas aplicaciones
+\begin{table}[ht]
+    \centering
+    \small % Cambia a \footnotesize si necesitas más reducción
+    \begin{tabular}{|p{5cm}|p{5cm}|p{2cm}|} % Ajusta los anchos según sea necesario
+        \hline
+        \textbf{Título del Artículo} & \textbf{Modelo Utilizado} & \textbf{Precisión} \\ \hline
+        El impacto del aprendizaje profundo en el desarrollo de vehículos autónomos & Redes Neuronales Convolucionales (CNN) & 92\% \\ \hline
+        Sensores y Tecnología en la Navegación Autónoma & Fusión de sensores y algoritmos & 95\% \\ \hline
+        Sistemas de Visión Artificial en UAVs & SSD (Single Shot Multibox Detector) & 90\% \\ \hline
+        Deep Learning for Autonomous Vehicles: State-of-the-Art and Future Trends & CNN, RNN y LSTM & 95\% \\ \hline
+        Autonomous Driving: A Survey of Deep Learning Techniques & CNN, GAN y Aprendizaje por Refuerzo Profundo (DRL) & 93\% \\ \hline
+    \end{tabular}
+    \caption{Comparativa de Modelos de Aprendizaje Profundo en Vehículos Autónomos}
+    \label{tab:comparativa_modelos}
+\end{table}
+
+La investigación y desarrollo en el campo de los vehículos autónomos y tecnologías como TinyML han demostrado un avance significativo en los últimos años. Las aplicaciones son amplias y variadas, desde vehículos terrestres hasta aeronaves no tripuladas, y el futuro promete un crecimiento aún mayor en este campo. La integración de inteligencia artificial en dispositivos cotidianos se vuelve crucial, lo que plantea la necesidad de una formación continua y un enfoque regulador adaptado a estos avances.
+
+
